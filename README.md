@@ -28,4 +28,4 @@ void loop(){
   }
 }
 ```
-use the button.
+Use the button.
