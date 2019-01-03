@@ -9,3 +9,23 @@ A comprehensive button library for arduino. Easily trigger actions on button pre
 * isReleased() - returns true when the button is released.
 * isHeld(int durration) - returns true if the button has been held for longer than durration
 * stateChanged() - returns true when the button is pressed or released.
+
+# Example code
+```
+Button toggleButton(12);
+```
+Create button object `toggleButton` and assign digital pin 12 to it.
+```
+void setup(){
+  toggleButton.begin()
+}
+```
+Setup the pin for button input.
+```
+void loop(){
+  if(toggleButton.isPressed()){
+    /* Do the thing */
+  }
+}
+```
+use the button.
