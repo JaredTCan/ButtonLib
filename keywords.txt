@@ -1,0 +1,7 @@
+Button	KEYWORD1
+begin	KEYWORD2
+isPressed	KEYWORD2
+isReleased	KEYWORD2
+isHeld	KEYWORD2
+getState	KEYWORD2
+stateChanged	KEYWORD2
